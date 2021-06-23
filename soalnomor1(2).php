@@ -1,4 +1,10 @@
 <?php
-$number = array (1,2,3,4);
-echo "bilangan yang tidak akan < 0 jika dikurangi nilai sebelumnya adalah ".max($number)
-?>
+$number = array (10,2,3,4);
+$y = count($number);
+$max= max($number);
+for($i=0;$i<=$y;$i++){
+	 if ($max <= $number[$i]){
+	 echo $number[$i];
+	 }
+} 
+?> 
